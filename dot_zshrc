@@ -120,3 +120,9 @@ esac
 
 # starship
 eval "$(starship init zsh)"
+export KUBECONFIG=/path/to/your/kubeconfig
+export KUBECONFIG=~/.kube/config
+export PATH="/home/khoa/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/khoa/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+export DOCKER_HOST=unix:///var/run/docker.sock
+
